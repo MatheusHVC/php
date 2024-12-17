@@ -5,10 +5,11 @@ header('Access-Control-Allow-Headers: Content-Type');
 header('Content-Type: application/json');
 
 // Conexão com o banco de dados
-$host = 'srv1782.hstgr.io';
-$dbname = 'u558355875_metheus';
-$username = 'u558355875_matheus';
-$password = 'Matheus362514';
+// Conectar ao banco de dados
+$host = 'sql200.infinityfree.com';
+$dbname = 'if0_37931394_game';
+$username = 'if0_37931394';
+$password = 'Dv050397';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
